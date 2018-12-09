@@ -1,0 +1,10 @@
+.sunset{
+    background: url(../../img/photos/sunset.jpg) no-repeat center center;
+    background-size: cover;
+    @include flex;
+    @include scrsun;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 330px;
+}

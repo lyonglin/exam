@@ -1,0 +1,9 @@
+.house{
+    background: url(../../img/photos/house.jpg) no-repeat center center;
+    background-size: cover;
+    @include flex;
+    @include scrhouse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 330px;
+}

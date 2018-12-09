@@ -1,0 +1,46 @@
+@mixin scrmenu {
+    @media screen and (max-width: 1366px) {
+        padding: 0 120px 0 110px;
+    }
+}
+@mixin scrmain {
+    @media screen and (max-width: 1366px) {
+        padding: 110px 120px 120px 110px;
+        
+    }
+}
+@mixin scrhouse {
+    @media screen and (max-width: 1366px) {
+        padding: 230px 0 100px 110px;
+        
+    }
+}
+@mixin scrsun {
+    @media screen and (max-width: 1366px) {
+    padding: 230px 110px 100px 0;
+}
+}
+
+
+
+@mixin scrtxt {
+    @media screen and (max-width: 1366px) {
+        font-size: 24px;
+    }
+}
+
+@mixin scrpad {
+    @media screen and (max-width: 1366px) {
+        padding: 50px 100px 50px 30px;
+    }
+}
+
+@mixin flex-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex {
+    display: flex;
+}

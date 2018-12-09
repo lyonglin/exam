@@ -1,0 +1,371 @@
+@font-face {
+  font-family: "Aleo";
+  src: url("../../Fonts/Aleo/WebfontKit/Regular/aleo-regular-webfont.eot");
+  src: url("../../Fonts/Aleo/WebfontKit/Regular/aleo-regular-webfont.eot") format("eot"), url("../../Fonts/Aleo/WebfontKit/Regular/aleo-regular-webfont.woff") format("woff"), url("../../Fonts/Aleo/WebfontKit/Regular/aleo-regular-webfont.ttf") format("truetype"), url("../../Fonts/Aleo/WebfontKit/Regular/aleo-regular-webfont.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+.container {
+  text-align: center;
+  background: url(../../img/photos/Image.jpg) no-repeat center center;
+  background-size: cover;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+}
+.container__title {
+  font-size: 48px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 4.8px;
+  line-height: 26px;
+  padding-top: 265px;
+  padding-bottom: 15px;
+}
+.container__text {
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 6.82px;
+  line-height: 26px;
+  padding-bottom: 50px;
+}
+.container__form {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 120px;
+  width: 650px;
+  margin: 0 auto;
+}
+.container__input {
+  flex-grow: 6;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 2.8px;
+  font-weight: 400;
+  border: none;
+}
+.container__btn {
+  font-family: "Aleo";
+  flex-grow: 1;
+  height: 60px;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 1.4px;
+  font-weight: 400;
+  text-transform: uppercase;
+  border: 2px solid #ffffff;
+  background-color: #5474fd;
+  color: #ffffff;
+  cursor: pointer;
+}
+.container__btn:hover {
+  color: red;
+  background-color: yellow;
+}
+.container__scroll {
+  width: 150px;
+  margin: 0 auto;
+  padding-bottom: 135px;
+}
+.container__link {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 2.8px;
+}
+.container__link:hover {
+  color: red;
+}
+
+.menu {
+  background-color: #5474fd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 330px;
+  height: 80px;
+  color: #ffffff;
+}
+@media screen and (max-width: 1366px) {
+  .menu {
+    padding: 0 120px 0 110px;
+  }
+}
+.menu__logo {
+  font-family: "Josefin Sans";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+  letter-spacing: 2.4px;
+}
+.menu__link {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-left: 40px;
+  text-transform: uppercase;
+  font-family: "Aleo";
+}
+.menu__link:hover {
+  color: #71F79F;
+}
+
+.main {
+  background: url(../../img/photos/castle.jpg) no-repeat center center;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 120px 330px;
+}
+@media screen and (max-width: 1366px) {
+  .main {
+    padding: 110px 120px 120px 110px;
+  }
+}
+.main__box {
+  display: flex;
+  align-items: center;
+}
+.main__expl {
+  display: flex;
+  flex-direction: column;
+  padding-right: 100px;
+}
+.main__expl--box {
+  flex-basis: 65%;
+}
+.main__expl--spainhouse {
+  width: 40%;
+  background-color: #232323;
+  opacity: 0.9;
+  padding: 50px 30px;
+}
+.main__expl--deep {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+}
+.main__title {
+  color: #ffffff;
+  font-family: Aleo;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-bottom: 62px;
+}
+.main__title--small {
+  color: #e8e8e8;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 1.5px;
+  padding-bottom: 30px;
+}
+.main__title--big {
+  color: #ffffff;
+  font-family: "Josefin Sans";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 10px;
+  text-transform: uppercase;
+  padding-bottom: 29px;
+}
+.main__title--sam {
+  font-family: "Josefin Sans";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 10px;
+  text-transform: uppercase;
+  padding-bottom: 32px;
+}
+.main__text {
+  color: #e8e8e8;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 1.6px;
+  padding-bottom: 48px;
+}
+.main__text--house {
+  color: #e8e8e8;
+  font-family: "Josefin Sans";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+  padding-bottom: 48px;
+}
+.main__text--sam {
+  font-family: "Josefin Sans";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 17px;
+  padding-bottom: 0;
+}
+.main__btn {
+  width: 225px;
+  height: 60px;
+  color: #ffffff;
+  font-family: Aleo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  background-color: #5474fd;
+  border: none;
+}
+.main__btn:hover {
+  color: #345995;
+  background-color: #FB4D3D;
+}
+.main__image {
+  flex-basis: 50%;
+}
+.main__info {
+  background-color: #333333;
+  padding: 50px 54px 48px 60px;
+}
+.main__photos {
+  display: flex;
+}
+
+.tour {
+  background-color: #333333;
+}
+.tour__line {
+  width: 40%;
+  margin: 0 auto;
+}
+.tour__list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 66%;
+  margin: 0 auto;
+}
+.tour__item {
+  display: flex;
+  flex-direction: column;
+}
+.tour__text {
+  color: #e8e8e8;
+  font-family: Aleo;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 30px 0 120px;
+}
+@media screen and (max-width: 1366px) {
+  .tour__text {
+    font-size: 24px;
+  }
+}
+
+.house {
+  background: url(../../img/photos/house.jpg) no-repeat center center;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 120px 330px;
+}
+@media screen and (max-width: 1366px) {
+  .house {
+    padding: 230px 0 100px 110px;
+  }
+}
+
+.sunset {
+  background: url(../../img/photos/sunset.jpg) no-repeat center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  padding: 120px 330px;
+}
+@media screen and (max-width: 1366px) {
+  .sunset {
+    padding: 230px 110px 100px 0;
+  }
+}
+
+.sumon {
+  background: url(../../img/photos/topview.jpg) no-repeat center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px 0 200px;
+}
+.sumon__title {
+  color: #ffffff;
+  font-family: Aleo;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-bottom: 90px;
+}
+
+.footer {
+  background-color: #232323;
+  padding-top: 120px;
+  padding-bottom: 54px;
+  text-align: center;
+}
+.footer__title {
+  color: #ffffff;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+  letter-spacing: 3.36px;
+  padding-bottom: 15px;
+}
+.footer__text {
+  color: #ffffff;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 1.6px;
+  padding-bottom: 30px;
+}
+.footer__link {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 1.6px;
+  color: #e8e8e8;
+}
+.footer__link--facebook:hover {
+  color: #4267b2;
+}
+.footer__link--twitter:hover {
+  color: #1da1f2;
+}
+.footer__link--linkedin:hover {
+  color: #0274b3;
+}
+.footer__link--youtube:hover {
+  color: #ff0000;
+}
+.footer__link--pinterest:hover {
+  color: #bd081c;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,30 @@
+.tour{
+    background-color: #333333;
+    &__line{
+        width: 40%;
+        margin: 0 auto;
+    }
+
+&__list{
+    @include flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 66%;
+    margin: 0 auto;
+
+    
+}
+&__item{
+    display: flex;
+    flex-direction: column;
+}
+&__text{
+    color: #e8e8e8;
+    font-family: Aleo;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 30px 0 120px;
+    @include scrtxt;
+}
+}
