@@ -11,6 +11,7 @@
   background-size: cover;
   color: white;
   font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
 }
 .container__title {
   font-size: 48px;
@@ -23,7 +24,6 @@
 }
 .container__text {
   font-size: 22px;
-  font-weight: 400;
   letter-spacing: 6.82px;
   line-height: 26px;
   padding-bottom: 50px;
@@ -38,25 +38,23 @@
 .container__input {
   flex-grow: 6;
   text-align: center;
-  font-family: "Josefin Sans", sans-serif;
   font-size: 14px;
   line-height: 26px;
   letter-spacing: 2.8px;
-  font-weight: 400;
   border: none;
 }
 .container__btn {
+  color: #ffffff;
   font-family: "Aleo";
+  font-weight: 400;
+  line-height: 26px;
   flex-grow: 1;
   height: 60px;
   font-size: 14px;
-  line-height: 26px;
   letter-spacing: 1.4px;
-  font-weight: 400;
   text-transform: uppercase;
   border: 2px solid #ffffff;
   background-color: #5474fd;
-  color: #ffffff;
   cursor: pointer;
 }
 .container__btn:hover {
@@ -71,9 +69,7 @@
 .container__link {
   text-decoration: none;
   color: #ffffff;
-  font-family: "Josefin Sans", sans-serif;
   font-size: 14px;
-  font-weight: 400;
   line-height: 26px;
   letter-spacing: 2.8px;
 }
@@ -157,34 +153,34 @@
 }
 .main__title {
   color: #ffffff;
-  font-family: Aleo;
-  font-size: 36px;
+  font-family: "Aleo";
   font-weight: 400;
   line-height: 26px;
+  font-size: 36px;
   padding-bottom: 62px;
 }
 .main__title--small {
-  color: #e8e8e8;
+  color: #ffffff;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 20px;
   font-weight: 400;
-  line-height: 26px;
+  font-size: 20px;
   letter-spacing: 1.5px;
   padding-bottom: 30px;
 }
 .main__title--big {
   color: #ffffff;
-  font-family: "Josefin Sans";
-  font-size: 20px;
+  font-family: "Josefin Sans", sans-serif;
   font-weight: 400;
+  font-size: 20px;
   line-height: 10px;
   text-transform: uppercase;
   padding-bottom: 29px;
 }
 .main__title--sam {
-  font-family: "Josefin Sans";
-  font-size: 20px;
+  color: #ffffff;
+  font-family: "Josefin Sans", sans-serif;
   font-weight: 400;
+  font-size: 20px;
   line-height: 10px;
   text-transform: uppercase;
   padding-bottom: 32px;
@@ -192,24 +188,16 @@
 .main__text {
   color: #e8e8e8;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 16px;
   font-weight: 300;
   line-height: 26px;
+  font-size: 16px;
   letter-spacing: 1.6px;
   padding-bottom: 48px;
 }
 .main__text--house {
-  color: #e8e8e8;
-  font-family: "Josefin Sans";
-  font-size: 16px;
-  font-weight: 300;
   line-height: 19px;
-  padding-bottom: 48px;
 }
 .main__text--sam {
-  font-family: "Josefin Sans";
-  font-size: 16px;
-  font-weight: 300;
   line-height: 17px;
   padding-bottom: 0;
 }
@@ -217,10 +205,10 @@
   width: 225px;
   height: 60px;
   color: #ffffff;
-  font-family: Aleo;
-  font-size: 16px;
+  font-family: "Aleo";
   font-weight: 400;
   line-height: 26px;
+  font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 1.2px;
   background-color: #5474fd;
@@ -312,10 +300,10 @@
 }
 .sumon__title {
   color: #ffffff;
-  font-family: Aleo;
-  font-size: 36px;
+  font-family: "Aleo";
   font-weight: 400;
   line-height: 26px;
+  font-size: 36px;
   padding-bottom: 90px;
 }
 
@@ -324,32 +312,25 @@
   padding-top: 120px;
   padding-bottom: 54px;
   text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 1.6px;
 }
 .footer__title {
-  color: #ffffff;
-  font-family: "Josefin Sans", sans-serif;
   font-size: 24px;
   font-weight: 700;
-  line-height: 26px;
   text-transform: uppercase;
   letter-spacing: 3.36px;
   padding-bottom: 15px;
 }
 .footer__text {
-  color: #ffffff;
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 26px;
-  letter-spacing: 1.6px;
   padding-bottom: 30px;
 }
 .footer__link {
   text-decoration: none;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 26px;
-  letter-spacing: 1.6px;
   color: #e8e8e8;
 }
 .footer__link--facebook:hover {
